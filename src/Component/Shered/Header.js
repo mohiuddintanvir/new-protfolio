@@ -74,7 +74,7 @@ const Header = () => {
         </div>
         <ul className="pt-6">
             {
-                manulist.map(manu=><Link to={manu.link}><li className="text-gray-300 text-sm flex items-center  gap-x-4 pb-5 cursor-pointer p-2 hover:bg-light-white rounded-md">{manu.icon} <span className={`${!open && 'hidden'} origin-left duration-200`}>{manu.name}</span> </li></Link>)
+                manulist.map(manu=><Link to={manu.link}><li className="text-gray-300 text-sm flex items-center  gap-x-4 pb-5 cursor-pointer p-2 hover:bg-light-white rounded-md">{manu.icon} <span className={`${!open && 'hidden'} origin-left dura`}>{manu.name}</span> </li></Link>)
             }
         </ul>
       </div>
